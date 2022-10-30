@@ -20,8 +20,7 @@ namespace COCOMO
 
         private void PDF_Load(object sender, EventArgs e)
         {
-            string path = "C:\\Users\\М\\Desktop\\ПИ\\COCOMO\\COCOMO\\Resources\\COCOMO.pdf";
-            var doc = PdfiumViewer.PdfDocument.Load(path);
+            var doc = PdfiumViewer.PdfDocument.Load("COCOMO.pdf");
             pdfViewer1.Document = doc;
         }
     }

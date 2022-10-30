@@ -697,7 +697,6 @@ namespace COCOMO
             toolTip1.SetToolTip(TXTTOOL, "Использование инструментальных программных средств");
             toolTip1.SetToolTip(TXTSITE, "многоабонентская (удаленная) разработка");
             toolTip1.SetToolTip(TXTSCE,  "Требуемое выполнение графика работ");
-            //pictureBox1.Image = Image.FromFile("graph.jpg");
             pictureBox1.Image = COCOMO.Properties.Resources.graph;
         }
         private void CALC1_1_Click(object sender, EventArgs e)
