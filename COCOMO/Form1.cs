@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 
 
 namespace COCOMO
@@ -319,12 +320,12 @@ namespace COCOMO
         }
         private double CalcEFA(int i)
         {
-            double EFA = 1;
+            double EFA = 0;
             int [] IndexBOX = new int [] {CBPERS.SelectedIndex,CBPREX.SelectedIndex,CBRCPX.SelectedIndex,CBRUSE.SelectedIndex,CBPDIF.SelectedIndex,CBFCIL.SelectedIndex,CBSCED.SelectedIndex};
             switch (i)
             {
                 case 0:
-                    switch (IndexBOX[0])
+                    switch (IndexBOX[0]) // PERS
                     {
                         case 0: EFA = 2.12; break;
                         case 1: EFA = 1.62; break;
@@ -336,7 +337,7 @@ namespace COCOMO
                     }
                     break;
                 case 1:
-                    switch (IndexBOX[1])
+                    switch (IndexBOX[1]) // PREX
                     {
                         case 0: EFA = 1.59; break;
                         case 1: EFA = 1.33; break;
@@ -348,7 +349,7 @@ namespace COCOMO
                     }
                     break;
                 case 2:
-                    switch (IndexBOX[2])
+                    switch (IndexBOX[2]) // PCPX
                     {
                         case 0: EFA = 0.49; break;
                         case 1: EFA = 0.6; break;
@@ -360,7 +361,7 @@ namespace COCOMO
                     }
                     break;
                 case 3:
-                    switch (IndexBOX[3])
+                    switch (IndexBOX[3]) // RUSE
                     {
                         case 0: EFA = 0.95; break;
                         case 1: EFA = 1; break;
@@ -370,7 +371,7 @@ namespace COCOMO
                     }
                     break;
                 case 4:
-                    switch (IndexBOX[4])
+                    switch (IndexBOX[4]) // PDIF
                     {
                         case 0: EFA = 0.87; break;
                         case 1: EFA = 1; break;
@@ -380,7 +381,7 @@ namespace COCOMO
                     }
                     break;
                 case 5:
-                    switch (IndexBOX[5])
+                    switch (IndexBOX[5]) // FCIL
                     {
                         case 0: EFA = 1.43; break;
                         case 1: EFA = 1.3; break;
@@ -596,7 +597,6 @@ namespace COCOMO
         private void Form1_Load(object sender, EventArgs e)
         {
             tabControl1.Visible = false;
-
             CBTEAM1_1.SelectedIndex = 0;
             CBTEAM1_2.SelectedIndex = 0;
 
@@ -657,8 +657,47 @@ namespace COCOMO
             CBTOOL.SelectedIndex = 2;
             CBSITE.SelectedIndex = 2;
             CBSCE.SelectedIndex = 2;
-        }
 
+
+            toolTip1.SetToolTip(label9, "Гибкость процесса разработки");
+            toolTip1.SetToolTip(label5, "Прецедентность, наличие опыта аналогичных разработок");
+            toolTip1.SetToolTip(label10, "Архитектура и разрешение рисков");
+            toolTip1.SetToolTip(label11, "Сработанность команды");
+            toolTip1.SetToolTip(label12, "Зрелость процессов");
+            
+            toolTip1.SetToolTip(TXTPERS, "Квалификация персонала");
+            toolTip1.SetToolTip(TXTPREX, "Опыт персонала");
+            toolTip1.SetToolTip(TXTRCPX, "Сложность и надежность продукта");
+            toolTip1.SetToolTip(TXTRUSE, "Разработка для повторного использования");
+            toolTip1.SetToolTip(TXTPDIF, "Сложность платформы разработки");
+            toolTip1.SetToolTip(TXTFCIL, "Оборудование");
+            toolTip1.SetToolTip(TXTSCED, "Требуемое выполнение графика работа");
+
+            toolTip1.SetToolTip(label66, "Гибкость процесса разработки");
+            toolTip1.SetToolTip(label67, "Прецедентность, наличие опыта аналогичных разработок");
+            toolTip1.SetToolTip(label65, "Архитектура и разрешение рисков");
+            toolTip1.SetToolTip(label64, "Сработанность команды");
+            toolTip1.SetToolTip(label63, "Зрелость процессов");
+
+            toolTip1.SetToolTip(TXTACAP, "Возможности аналитика");
+            toolTip1.SetToolTip(TXTAEXP, "Опыт разработки приложений");
+            toolTip1.SetToolTip(TXTPCAP, "Возможности программиста");
+            toolTip1.SetToolTip(TXTPCON, "Продолжительность работы персонала");
+            toolTip1.SetToolTip(TXTPEXP, "Опыт работы с платформой");
+            toolTip1.SetToolTip(TXTLTEX, "Опыт использования языка программирования и инструментальных средств");
+            toolTip1.SetToolTip(TXTRELY, "Требуемая надежность программы");
+            toolTip1.SetToolTip(TXTDATA, "Размер базы данных");
+            toolTip1.SetToolTip(TXTCPLX, "Сложность программы");
+            toolTip1.SetToolTip(TXTRUS,  "Требуемая возможность многократного использования");
+            toolTip1.SetToolTip(TXTDOCU, "Соответствие документации потребностям жизненного цикла");
+            toolTip1.SetToolTip(TXTTIME, "Ограничения времени выполнения");
+            toolTip1.SetToolTip(TXTSTOR, "Ограничения памяти");
+            toolTip1.SetToolTip(TXTPVOL, "Изменяемость платформы");
+            toolTip1.SetToolTip(TXTTOOL, "Использование инструментальных программных средств");
+            toolTip1.SetToolTip(TXTSITE, "многоабонентская (удаленная) разработка");
+            toolTip1.SetToolTip(TXTSCE,  "Требуемое выполнение графика работ");
+
+        }
         private void CALC1_1_Click(object sender, EventArgs e)
         {
             SIZE = 0.0;
@@ -739,9 +778,9 @@ namespace COCOMO
             {
                 SF += CalcSF1(i);
             }
-            double E = B + 0.01 * SF;
+            double E = B + (0.01 * SF);
 
-            for (int j = 0; j < 6; j++)
+            for (int j = 0; j < 5; j++)
             {
                 EAF *= CalcEFA(j);
             }
@@ -753,8 +792,7 @@ namespace COCOMO
                 case 3: SCED = 1; break;
             }
             PMNS = EAF * A * Math.Pow(SIZE, E);
-            EAF = EAF * SCED;
-            PM = EAF * A * Math.Pow(SIZE, E);
+            PM = Math.Round(EAF * SCED) * A * Math.Pow(SIZE, E);
             TM = SCED * C * Math.Pow(PMNS, (D + 0.2 * (E - B)));
             PMoutput2_1.Text = Convert.ToString(Math.Round(PM, 2));
             TMoutput2_1.Text = Convert.ToString(Math.Round(TM, 2));
@@ -782,7 +820,7 @@ namespace COCOMO
             {
                 EAF *= CalcEM(j);
             }
-            switch (CBSCED.SelectedIndex)
+            switch (CBSCE.SelectedIndex)
             {
                 case 0: SCED = 1.43; break;
                 case 1: SCED = 1.14; break;
@@ -790,8 +828,7 @@ namespace COCOMO
                 case 3: SCED = 1; break;
             }
             PMNS = EAF * A * Math.Pow(SIZE, E);
-            EAF = EAF * SCED;
-            PM = EAF * A * Math.Pow(SIZE, E);
+            PM = Math.Round(EAF * SCED) * A * Math.Pow(SIZE, E);
             TM = SCED * C * Math.Pow(PMNS, (D + 0.2 * (E - B)));
             PMoutput2_2.Text = Convert.ToString(Math.Round(PM, 2));
             TMoutput2_2.Text = Convert.ToString(Math.Round(TM, 2));
