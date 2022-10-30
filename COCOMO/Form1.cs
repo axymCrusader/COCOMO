@@ -582,7 +582,8 @@ namespace COCOMO
             button1.Visible = false;
             OPENPDF.Visible = false;
             label69.Visible = false;
-
+            TXTCOPRIGHT.Visible = false;
+            TXTNAME.Visible = false;
             tabControl1.Visible = true;
             
         }
@@ -696,7 +697,7 @@ namespace COCOMO
             toolTip1.SetToolTip(TXTTOOL, "Использование инструментальных программных средств");
             toolTip1.SetToolTip(TXTSITE, "многоабонентская (удаленная) разработка");
             toolTip1.SetToolTip(TXTSCE,  "Требуемое выполнение графика работ");
-
+            pictureBox1.Image = Image.FromFile("graph.jpg");
         }
         private void CALC1_1_Click(object sender, EventArgs e)
         {

@@ -152,6 +152,7 @@
             this.label29 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CALC1_1 = new System.Windows.Forms.Button();
             this.TMoutput1_1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -183,14 +184,15 @@
             this.OPENPDF = new System.Windows.Forms.Button();
             this.label69 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.TXTNAME = new System.Windows.Forms.Label();
+            this.TXTCOPRIGHT = new System.Windows.Forms.Label();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -1651,6 +1653,15 @@
             this.tabPage3.Text = "COCOMO I (Базовый уровень)";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(78, 168);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(613, 355);
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            // 
             // CALC1_1
             // 
             this.CALC1_1.Location = new System.Drawing.Point(236, 29);
@@ -2005,26 +2016,39 @@
             // 
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label69.Location = new System.Drawing.Point(15, 548);
+            this.label69.Location = new System.Drawing.Point(23, 502);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(123, 16);
             this.label69.TabIndex = 8;
             this.label69.Text = "Работу выполнил";
             // 
-            // pictureBox1
+            // TXTNAME
             // 
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 143);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(848, 462);
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
+            this.TXTNAME.AutoSize = true;
+            this.TXTNAME.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TXTNAME.Location = new System.Drawing.Point(23, 530);
+            this.TXTNAME.Name = "TXTNAME";
+            this.TXTNAME.Size = new System.Drawing.Size(159, 16);
+            this.TXTNAME.TabIndex = 9;
+            this.TXTNAME.Text = "Щёголев Дмитрий 440-2";
+            // 
+            // TXTCOPRIGHT
+            // 
+            this.TXTCOPRIGHT.AutoSize = true;
+            this.TXTCOPRIGHT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TXTCOPRIGHT.Location = new System.Drawing.Point(26, 561);
+            this.TXTCOPRIGHT.Name = "TXTCOPRIGHT";
+            this.TXTCOPRIGHT.Size = new System.Drawing.Size(75, 16);
+            this.TXTCOPRIGHT.TabIndex = 10;
+            this.TXTCOPRIGHT.Text = "© .  «», 2022";
             // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(852, 627);
+            this.Controls.Add(this.TXTCOPRIGHT);
+            this.Controls.Add(this.TXTNAME);
             this.Controls.Add(this.label69);
             this.Controls.Add(this.OPENPDF);
             this.Controls.Add(this.tabControl1);
@@ -2044,10 +2068,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2209,6 +2233,8 @@
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label TXTNAME;
+        private System.Windows.Forms.Label TXTCOPRIGHT;
     }
 }
 
