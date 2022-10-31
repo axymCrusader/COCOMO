@@ -47,7 +47,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 0.75; break;
                             case 1: EAF = 0.88; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 1.15; break;
                             case 4: EAF = 1.4; break;
                         }
@@ -67,7 +67,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 0.70; break;
                             case 1: EAF = 0.85; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 1.15; break;
                             case 4: EAF = 1.3; break;
                             case 5: EAF = 1.65; break;
@@ -76,7 +76,7 @@ namespace COCOMO
                     case 3:
                         switch (IndexBOX[3]) // Ограничения быстродействия при выполнении программы
                         {
-                            case 0: EAF = 1; break;
+                            case 0: EAF = 1.0; break;
                             case 1: EAF = 1.11; break;
                             case 2: EAF = 1.3; break;
                             case 3: EAF = 1.66; break;
@@ -95,7 +95,7 @@ namespace COCOMO
                         switch (IndexBOX[5]) // Неустойчивость окружения виртуальноймашины
                         {
                             case 0: EAF = 0.87; break;
-                            case 1: EAF = 1; break;
+                            case 1: EAF = 1.0; break;
                             case 2: EAF = 1.15; break;
                             case 3: EAF = 1.3; break;
                         }
@@ -104,7 +104,7 @@ namespace COCOMO
                         switch (IndexBOX[6]) // Требуемое время восстановления
                         {
                             case 0: EAF = 0.87; break;
-                            case 1: EAF = 1; break;
+                            case 1: EAF = 1.0; break;
                             case 2: EAF = 1.07; break;
                             case 3: EAF = 1.15; break;
                         }
@@ -114,7 +114,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 1.46; break;
                             case 1: EAF = 1.19; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 0.86; break;
                             case 4: EAF = 0.71; break;
                         }
@@ -124,7 +124,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 1.29; break;
                             case 1: EAF = 1.13; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 0.91; break;
                             case 4: EAF = 0.82; break;
                         }
@@ -134,7 +134,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 1.42; break;
                             case 1: EAF = 1.17; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 0.86; break;
                             case 4: EAF = 0.70; break;
                         }
@@ -144,7 +144,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 1.21; break;
                             case 1: EAF = 1.10; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 0.90; break;
                         }
                         break;
@@ -153,7 +153,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 1.14; break;
                             case 1: EAF = 1.07; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 0.95; break;
                         }
                         break;
@@ -162,7 +162,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 1.24; break;
                             case 1: EAF = 1.10; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 0.91; break;
                             case 4: EAF = 0.82; break;
                         }
@@ -172,7 +172,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 1.24; break;
                             case 1: EAF = 1.10; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 0.91; break;
                             case 4: EAF = 0.83; break;
                         }
@@ -182,7 +182,7 @@ namespace COCOMO
                         {
                             case 0: EAF = 1.23; break;
                             case 1: EAF = 1.08; break;
-                            case 2: EAF = 1; break;
+                            case 2: EAF = 1.0; break;
                             case 3: EAF = 1.04; break;
                             case 4: EAF = 1.10; break;
                         }
@@ -330,7 +330,7 @@ namespace COCOMO
                         case 0: EFA = 2.12; break;
                         case 1: EFA = 1.62; break;
                         case 2: EFA = 1.26; break;
-                        case 3: EFA = 1; break;
+                        case 3: EFA = 1.0; break;
                         case 4: EFA = 0.83; break;
                         case 5: EFA = 0.63; break;
                         case 6: EFA = 0.5; break;
@@ -342,7 +342,7 @@ namespace COCOMO
                         case 0: EFA = 1.59; break;
                         case 1: EFA = 1.33; break;
                         case 2: EFA = 1.22; break;
-                        case 3: EFA = 1; break;
+                        case 3: EFA = 1.0; break;
                         case 4: EFA = 0.87; break;
                         case 5: EFA = 0.74; break;
                         case 6: EFA = 0.62; break;
@@ -354,7 +354,7 @@ namespace COCOMO
                         case 0: EFA = 0.49; break;
                         case 1: EFA = 0.6; break;
                         case 2: EFA = 0.83; break;
-                        case 3: EFA = 1; break;
+                        case 3: EFA = 1.0; break;
                         case 4: EFA = 1.33; break;
                         case 5: EFA = 1.91; break;
                         case 6: EFA = 2.72; break;
@@ -364,7 +364,7 @@ namespace COCOMO
                     switch (IndexBOX[3]) // RUSE
                     {
                         case 0: EFA = 0.95; break;
-                        case 1: EFA = 1; break;
+                        case 1: EFA = 1.0; break;
                         case 2: EFA = 1.07; break;
                         case 3: EFA = 1.15; break;
                         case 4: EFA = 1.24; break;
@@ -374,7 +374,7 @@ namespace COCOMO
                     switch (IndexBOX[4]) // PDIF
                     {
                         case 0: EFA = 0.87; break;
-                        case 1: EFA = 1; break;
+                        case 1: EFA = 1.0; break;
                         case 2: EFA = 1.29; break;
                         case 3: EFA = 1.81; break;
                         case 4: EFA = 2.61; break;
@@ -386,7 +386,7 @@ namespace COCOMO
                         case 0: EFA = 1.43; break;
                         case 1: EFA = 1.3; break;
                         case 2: EFA = 1.1; break;
-                        case 3: EFA = 1; break;
+                        case 3: EFA = 1.0; break;
                         case 4: EFA = 0.87; break;
                         case 5: EFA = 0.73; break;
                         case 6: EFA = 0.62; break;
@@ -410,7 +410,7 @@ namespace COCOMO
                     {
                         case 0: EM = 1.42; break;
                         case 1: EM = 1.29; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 0.85; break;
                         case 4: EM = 0.71; break;
                     }
@@ -420,7 +420,7 @@ namespace COCOMO
                     {
                         case 0: EM = 1.22; break;
                         case 1: EM = 1.10; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 0.88; break;
                         case 4: EM = 0.81; break;
                     }
@@ -430,7 +430,7 @@ namespace COCOMO
                     {
                         case 0: EM = 1.34; break;
                         case 1: EM = 1.15; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 0.88; break;
                         case 4: EM = 0.76; break;
                     }
@@ -440,7 +440,7 @@ namespace COCOMO
                     {
                         case 0: EM = 1.29; break;
                         case 1: EM = 1.12; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 0.90; break;
                         case 4: EM = 0.81; break;
                     }
@@ -450,7 +450,7 @@ namespace COCOMO
                     {
                         case 0: EM = 1.19; break;
                         case 1: EM = 1.09; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 0.91; break;
                         case 4: EM = 0.85; break;
                     }
@@ -460,7 +460,7 @@ namespace COCOMO
                     {
                         case 0: EM = 1.20; break;
                         case 1: EM = 1.09; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 0.91; break;
                         case 4: EM = 0.84; break;
                     }
@@ -470,7 +470,7 @@ namespace COCOMO
                     {
                         case 0: EM = 0.84; break;
                         case 1: EM = 0.92; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 1.10; break;
                         case 4: EM = 1.26; break;
                     }
@@ -479,7 +479,7 @@ namespace COCOMO
                     switch (IndexBOX[7]) // DATA
                     {
                         case 0: EM = 0.23; break;
-                        case 1: EM = 1; break;
+                        case 1: EM = 1.0; break;
                         case 2: EM = 1.14; break;
                         case 3: EM = 1.28; break;  
                     }
@@ -489,7 +489,7 @@ namespace COCOMO
                     {
                         case 0: EM = 0.73; break;
                         case 1: EM = 0.87; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 1.17; break;
                         case 4: EM = 1.34; break;
                         case 5: EM = 1.74; break;
@@ -499,7 +499,7 @@ namespace COCOMO
                     switch (IndexBOX[9]) // RUSE
                     {
                         case 0: EM = 0.95; break;
-                        case 1: EM = 1; break;
+                        case 1: EM = 1.0; break;
                         case 2: EM = 1.07; break;
                         case 3: EM = 1.15; break;
                         case 4: EM = 1.24; break;
@@ -510,7 +510,7 @@ namespace COCOMO
                     {
                         case 0: EM = 0.81; break;
                         case 1: EM = 0.91; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 1.11; break;
                         case 4: EM = 1.23; break;               
                     }
@@ -518,7 +518,7 @@ namespace COCOMO
                 case 11:
                     switch (IndexBOX[11]) // TIME
                     {
-                        case 0: EM = 1; break;
+                        case 0: EM = 1.0; break;
                         case 1: EM = 1.11; break;
                         case 2: EM = 1.29; break;
                         case 3: EM = 1.63; break;
@@ -527,7 +527,7 @@ namespace COCOMO
                 case 12:
                     switch (IndexBOX[12]) //  STOR
                     {
-                        case 0: EM = 1; break;
+                        case 0: EM = 1.0; break;
                         case 1: EM = 1.05; break;
                         case 2: EM = 1.17; break;
                         case 3: EM = 1.46; break;
@@ -537,7 +537,7 @@ namespace COCOMO
                     switch (IndexBOX[13]) // PVOL
                     {
                         case 0: EM = 0.87; break;
-                        case 1: EM = 1; break;
+                        case 1: EM = 1.0; break;
                         case 2: EM = 1.15; break;
                         case 3: EM = 1.30; break;
                     }
@@ -547,7 +547,7 @@ namespace COCOMO
                     {
                         case 0: EM = 1.17; break;
                         case 1: EM = 1.09; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 0.90; break;
                         case 4: EM = 0.78; break;
                     }
@@ -557,7 +557,7 @@ namespace COCOMO
                     {
                         case 0: EM = 1.22; break;
                         case 1: EM = 1.09; break;
-                        case 2: EM = 1; break;
+                        case 2: EM = 1.0; break;
                         case 3: EM = 0.93; break;
                         case 4: EM = 0.86; break;
                         case 5: EM = 0.80; break;
@@ -569,9 +569,9 @@ namespace COCOMO
                     {
                         case 0: EM = 1.43; break;
                         case 1: EM = 1.14; break;
-                        case 2: EM = 1; break;
-                        case 3: EM = 1; break;
-                        case 4: EM = 1; break;
+                        case 2: EM = 1.0; break;
+                        case 3: EM = 1.0; break;
+                        case 4: EM = 1.0; break;
                     }
                     break;
             }
@@ -581,11 +581,8 @@ namespace COCOMO
         {
             button1.Visible = false;
             OPENPDF.Visible = false;
-            label69.Visible = false;
-            TXTCOPRIGHT.Visible = false;
-            TXTNAME.Visible = false;
             tabControl1.Visible = true;
-            
+            btnabout.Visible = false;
         }
 
         private void tb_KeyPress(object sender, KeyPressEventArgs e)
@@ -697,7 +694,6 @@ namespace COCOMO
             toolTip1.SetToolTip(TXTTOOL, "Использование инструментальных программных средств");
             toolTip1.SetToolTip(TXTSITE, "многоабонентская (удаленная) разработка");
             toolTip1.SetToolTip(TXTSCE,  "Требуемое выполнение графика работ");
-            pictureBox1.Image = COCOMO.Properties.Resources.graph;
         }
         private void CALC1_1_Click(object sender, EventArgs e)
         {
@@ -793,7 +789,9 @@ namespace COCOMO
                 case 3: SCED = 1; break;
             }
             PMNS = EAF * A * Math.Pow(SIZE, E);
-            PM = Math.Round(EAF * SCED) * A * Math.Pow(SIZE, E);
+
+            PM = (EAF * SCED) * A * Math.Pow(SIZE, E);
+            
             TM = SCED * C * Math.Pow(PMNS, (D + 0.2 * (E - B)));
             PMoutput2_1.Text = Convert.ToString(Math.Round(PM, 2));
             TMoutput2_1.Text = Convert.ToString(Math.Round(TM, 2));
@@ -829,7 +827,9 @@ namespace COCOMO
                 case 3: SCED = 1; break;
             }
             PMNS = EAF * A * Math.Pow(SIZE, E);
-            PM = Math.Round(EAF * SCED) * A * Math.Pow(SIZE, E);
+
+            PM = (EAF * SCED) * A * Math.Pow(SIZE, E);
+            
             TM = SCED * C * Math.Pow(PMNS, (D + 0.2 * (E - B)));
             PMoutput2_2.Text = Convert.ToString(Math.Round(PM, 2));
             TMoutput2_2.Text = Convert.ToString(Math.Round(TM, 2));
@@ -845,7 +845,13 @@ namespace COCOMO
             tabControl1.Visible = false;
             button1.Visible = true;
             OPENPDF.Visible = true;
-            label69.Visible = true;
+            btnabout.Visible = true;
+        }
+
+        private void btnabout_Click(object sender, EventArgs e)
+        {
+            about a1 = new about();
+            a1.Show();
         }
     }
 }
