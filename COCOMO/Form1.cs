@@ -771,7 +771,7 @@ namespace COCOMO
             {
                 MessageBox.Show("Введены некорректные данные");
             }
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 4; i++)
             {
                 SF += CalcSF1(i);
             }
@@ -790,7 +790,7 @@ namespace COCOMO
             }
             PMNS = EAF * A * Math.Pow(SIZE, E);
 
-            PM = (EAF * SCED) * A * Math.Pow(SIZE, E);
+            PM = Math.Round(EAF * SCED) * A * Math.Pow(SIZE, E);
             
             TM = SCED * C * Math.Pow(PMNS, (D + 0.2 * (E - B)));
             PMoutput2_1.Text = Convert.ToString(Math.Round(PM, 2));
@@ -808,14 +808,14 @@ namespace COCOMO
                 MessageBox.Show("Введены некорректные данные");
             }
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 4; i++)
             {
                 SF += CalcSF2(i);
             }
 
             double E = B + 0.01 * SF;
 
-            for (int j = 0; j < 6; j++)
+            for (int j = 0; j < 15; j++)
             {
                 EAF *= CalcEM(j);
             }
@@ -828,7 +828,7 @@ namespace COCOMO
             }
             PMNS = EAF * A * Math.Pow(SIZE, E);
 
-            PM = (EAF * SCED) * A * Math.Pow(SIZE, E);
+            PM = Math.Round(EAF * SCED) * A * Math.Pow(SIZE, E);
             
             TM = SCED * C * Math.Pow(PMNS, (D + 0.2 * (E - B)));
             PMoutput2_2.Text = Convert.ToString(Math.Round(PM, 2));
