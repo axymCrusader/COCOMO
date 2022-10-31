@@ -1970,7 +1970,7 @@
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(93, 13);
             this.label67.TabIndex = 37;
-            this.label67.Text = "Precedente dness";
+            this.label67.Text = "Precedentedness";
             // 
             // label68
             // 
