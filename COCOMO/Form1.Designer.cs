@@ -323,11 +323,13 @@
             // 
             // CBPERS
             // 
+            this.CBPERS.ForeColor = System.Drawing.SystemColors.WindowText;
             this.CBPERS.FormattingEnabled = true;
             this.CBPERS.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Сверхнизкий",
+            "Очень низкий",
             "Низкий",
-            "Номинальный",
+            "Нормальный",
             "Высокий",
             "Очень высокий",
             "Сверхвысокий"});
@@ -413,9 +415,10 @@
             // 
             this.CBPREX.FormattingEnabled = true;
             this.CBPREX.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Сверхнизкий",
+            "Очень низкий",
             "Низкий",
-            "Номинальный",
+            "Нормальный",
             "Высокий",
             "Очень высокий",
             "Сверхвысокий"});
@@ -437,8 +440,9 @@
             // 
             this.CBSCED.FormattingEnabled = true;
             this.CBSCED.Items.AddRange(new object[] {
+            "Очень низкий",
             "Низкий",
-            "Номинальный",
+            "Нормальный",
             "Высокий"});
             this.CBSCED.Location = new System.Drawing.Point(528, 240);
             this.CBSCED.Name = "CBSCED";
@@ -449,11 +453,11 @@
             // 
             this.CBTC2_1.FormattingEnabled = true;
             this.CBTC2_1.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий ",
+            "Высокий",
+            "Очень высокий",
             "Критический"});
             this.CBTC2_1.Location = new System.Drawing.Point(48, 335);
             this.CBTC2_1.Name = "CBTC2_1";
@@ -464,9 +468,10 @@
             // 
             this.CBFCIL.FormattingEnabled = true;
             this.CBFCIL.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Сверхнизкий",
+            "Очень низкий",
             "Низкий",
-            "Номинальный",
+            "Нормальный",
             "Высокий",
             "Очень высокий",
             "Сверхвысокий"});
@@ -479,11 +484,11 @@
             // 
             this.CBPM2_1.FormattingEnabled = true;
             this.CBPM2_1.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий ",
+            "Высокий",
+            "Очень высокий",
             "Критический"});
             this.CBPM2_1.Location = new System.Drawing.Point(48, 397);
             this.CBPM2_1.Name = "CBPM2_1";
@@ -494,9 +499,10 @@
             // 
             this.CBRCPX.FormattingEnabled = true;
             this.CBRCPX.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Сверхнизкий",
+            "Очень низкий",
             "Низкий",
-            "Номинальный",
+            "Нормальный",
             "Высокий",
             "Очень высокий",
             "Сверхвысокий"});
@@ -509,11 +515,11 @@
             // 
             this.CBARR2_1.FormattingEnabled = true;
             this.CBARR2_1.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий ",
+            "Высокий",
+            "Очень высокий",
             "Критический"});
             this.CBARR2_1.Location = new System.Drawing.Point(48, 281);
             this.CBARR2_1.Name = "CBARR2_1";
@@ -524,7 +530,8 @@
             // 
             this.CBPDIF.FormattingEnabled = true;
             this.CBPDIF.Items.AddRange(new object[] {
-            "Номинальный",
+            "Низкий",
+            "Нормальный",
             "Высокий",
             "Очень высокий",
             "Сверхвысокий"});
@@ -537,11 +544,11 @@
             // 
             this.CBDF2_1.FormattingEnabled = true;
             this.CBDF2_1.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий ",
+            "Высокий",
+            "Очень высокий",
             "Критический"});
             this.CBDF2_1.Location = new System.Drawing.Point(48, 226);
             this.CBDF2_1.Name = "CBDF2_1";
@@ -552,7 +559,8 @@
             // 
             this.CBRUSE.FormattingEnabled = true;
             this.CBRUSE.Items.AddRange(new object[] {
-            "Номинальный",
+            "Низкий",
+            "Нормальный",
             "Высокий",
             "Очень высокий",
             "Сверхвысокий"});
@@ -565,11 +573,11 @@
             // 
             this.CBPD2_1.FormattingEnabled = true;
             this.CBPD2_1.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий ",
+            "Высокий",
+            "Очень высокий",
             "Критический"});
             this.CBPD2_1.Location = new System.Drawing.Point(48, 168);
             this.CBPD2_1.Name = "CBPD2_1";
@@ -636,7 +644,7 @@
             // 
             this.CBSCE.FormattingEnabled = true;
             this.CBSCE.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -650,7 +658,7 @@
             // 
             this.CBCPLX.FormattingEnabled = true;
             this.CBCPLX.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -665,7 +673,7 @@
             // 
             this.CBTOOL.FormattingEnabled = true;
             this.CBTOOL.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -693,7 +701,7 @@
             // 
             this.CBSITE.FormattingEnabled = true;
             this.CBSITE.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -708,7 +716,7 @@
             // 
             this.CBDOCU.FormattingEnabled = true;
             this.CBDOCU.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -761,7 +769,7 @@
             // 
             this.CBRELY.FormattingEnabled = true;
             this.CBRELY.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -788,7 +796,7 @@
             // 
             this.CBLTEX.FormattingEnabled = true;
             this.CBLTEX.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -802,7 +810,7 @@
             // 
             this.CBPEXP.FormattingEnabled = true;
             this.CBPEXP.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -816,7 +824,7 @@
             // 
             this.CBPCON.FormattingEnabled = true;
             this.CBPCON.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -830,7 +838,7 @@
             // 
             this.CBPCAP.FormattingEnabled = true;
             this.CBPCAP.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -844,7 +852,7 @@
             // 
             this.CBAEXP.FormattingEnabled = true;
             this.CBAEXP.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -858,7 +866,7 @@
             // 
             this.CBACAP.FormattingEnabled = true;
             this.CBACAP.Items.AddRange(new object[] {
-            "Очень низкий ",
+            "Очень низкий",
             "Низкий",
             "Номинальный",
             "Высокий",
@@ -1132,8 +1140,8 @@
             this.CB2_2.FormattingEnabled = true;
             this.CB2_2.Items.AddRange(new object[] {
             "Средний",
-            "Высокий ",
-            "Очень высокий ",
+            "Высокий",
+            "Очень высокий",
             "Критический"});
             this.CB2_2.Location = new System.Drawing.Point(601, 513);
             this.CB2_2.Margin = new System.Windows.Forms.Padding(2);
@@ -1145,11 +1153,11 @@
             // 
             this.CB1_1.FormattingEnabled = true;
             this.CB1_1.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий "});
+            "Высокий",
+            "Очень высокий"});
             this.CB1_1.Location = new System.Drawing.Point(441, 56);
             this.CB1_1.Margin = new System.Windows.Forms.Padding(2);
             this.CB1_1.Name = "CB1_1";
@@ -1160,11 +1168,11 @@
             // 
             this.CB4_3.FormattingEnabled = true;
             this.CB4_3.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий "});
+            "Высокий",
+            "Очень высокий"});
             this.CB4_3.Location = new System.Drawing.Point(538, 414);
             this.CB4_3.Margin = new System.Windows.Forms.Padding(2);
             this.CB4_3.Name = "CB4_3";
@@ -1185,9 +1193,9 @@
             // 
             this.CB2_3.FormattingEnabled = true;
             this.CB2_3.Items.AddRange(new object[] {
-            "Низкий ",
+            "Низкий",
             "Средний",
-            "Высокий ",
+            "Высокий",
             "Очень высокий"});
             this.CB2_3.Location = new System.Drawing.Point(601, 539);
             this.CB2_3.Margin = new System.Windows.Forms.Padding(2);
@@ -1207,9 +1215,9 @@
             // 
             this.CB2_4.FormattingEnabled = true;
             this.CB2_4.Items.AddRange(new object[] {
-            "Низкий ",
+            "Низкий",
             "Средний",
-            "Высокий ",
+            "Высокий",
             "Очень высокий"});
             this.CB2_4.Location = new System.Drawing.Point(601, 566);
             this.CB2_4.Margin = new System.Windows.Forms.Padding(2);
@@ -1230,11 +1238,11 @@
             // 
             this.CB4_2.FormattingEnabled = true;
             this.CB4_2.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий "});
+            "Высокий",
+            "Очень высокий"});
             this.CB4_2.Location = new System.Drawing.Point(538, 389);
             this.CB4_2.Margin = new System.Windows.Forms.Padding(2);
             this.CB4_2.Name = "CB4_2";
@@ -1254,8 +1262,8 @@
             this.CB2_1.FormattingEnabled = true;
             this.CB2_1.Items.AddRange(new object[] {
             "Средний",
-            "Высокий ",
-            "Очень высокий ",
+            "Высокий",
+            "Очень высокий",
             "Критический"});
             this.CB2_1.Location = new System.Drawing.Point(601, 484);
             this.CB2_1.Margin = new System.Windows.Forms.Padding(2);
@@ -1296,11 +1304,11 @@
             // 
             this.CB4_1.FormattingEnabled = true;
             this.CB4_1.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий "});
+            "Высокий",
+            "Очень высокий"});
             this.CB4_1.Location = new System.Drawing.Point(538, 362);
             this.CB4_1.Margin = new System.Windows.Forms.Padding(2);
             this.CB4_1.Name = "CB4_1";
@@ -1414,11 +1422,11 @@
             // 
             this.CB1_3.FormattingEnabled = true;
             this.CB1_3.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий ",
+            "Высокий",
+            "Очень высокий",
             "Критический"});
             this.CB1_3.Location = new System.Drawing.Point(441, 120);
             this.CB1_3.Margin = new System.Windows.Forms.Padding(2);
@@ -1430,10 +1438,10 @@
             // 
             this.CB1_2.FormattingEnabled = true;
             this.CB1_2.Items.AddRange(new object[] {
-            "Низкий ",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий "});
+            "Высокий",
+            "Очень высокий"});
             this.CB1_2.Location = new System.Drawing.Point(441, 89);
             this.CB1_2.Margin = new System.Windows.Forms.Padding(2);
             this.CB1_2.Name = "CB1_2";
@@ -1496,11 +1504,11 @@
             // 
             this.CB3_1.FormattingEnabled = true;
             this.CB3_1.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий "});
+            "Высокий",
+            "Очень высокий"});
             this.CB3_1.Location = new System.Drawing.Point(550, 189);
             this.CB3_1.Margin = new System.Windows.Forms.Padding(2);
             this.CB3_1.Name = "CB3_1";
@@ -1511,10 +1519,10 @@
             // 
             this.CB3_4.FormattingEnabled = true;
             this.CB3_4.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий "});
+            "Высокий"});
             this.CB3_4.Location = new System.Drawing.Point(550, 270);
             this.CB3_4.Margin = new System.Windows.Forms.Padding(2);
             this.CB3_4.Name = "CB3_4";
@@ -1535,11 +1543,11 @@
             // 
             this.CB3_2.FormattingEnabled = true;
             this.CB3_2.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий "});
+            "Высокий",
+            "Очень высокий"});
             this.CB3_2.Location = new System.Drawing.Point(550, 215);
             this.CB3_2.Margin = new System.Windows.Forms.Padding(2);
             this.CB3_2.Name = "CB3_2";
@@ -1560,10 +1568,10 @@
             // 
             this.CB3_5.FormattingEnabled = true;
             this.CB3_5.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий "});
+            "Высокий"});
             this.CB3_5.Location = new System.Drawing.Point(550, 296);
             this.CB3_5.Margin = new System.Windows.Forms.Padding(2);
             this.CB3_5.Name = "CB3_5";
@@ -1584,11 +1592,11 @@
             // 
             this.CB3_3.FormattingEnabled = true;
             this.CB3_3.Items.AddRange(new object[] {
-            "Очень низкий ",
-            "Низкий ",
+            "Очень низкий",
+            "Низкий",
             "Средний",
-            "Высокий ",
-            "Очень высокий "});
+            "Высокий",
+            "Очень высокий"});
             this.CB3_3.Location = new System.Drawing.Point(550, 243);
             this.CB3_3.Margin = new System.Windows.Forms.Padding(2);
             this.CB3_3.Name = "CB3_3";
@@ -1968,7 +1976,7 @@
             this.label67.AutoSize = true;
             this.label67.Location = new System.Drawing.Point(16, 132);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(93, 13);
+            this.label67.Size = new System.Drawing.Size(90, 13);
             this.label67.TabIndex = 37;
             this.label67.Text = "Precedentedness";
             // 
