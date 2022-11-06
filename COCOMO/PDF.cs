@@ -15,6 +15,7 @@ namespace COCOMO
     {
         public PDF()
         {
+            TopMost = true;
             InitializeComponent();
         }
 

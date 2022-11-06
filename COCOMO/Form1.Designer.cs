@@ -2002,7 +2002,7 @@
             this.OPENPDF.Name = "OPENPDF";
             this.OPENPDF.Size = new System.Drawing.Size(97, 47);
             this.OPENPDF.TabIndex = 6;
-            this.OPENPDF.Text = "Открыть руководство";
+            this.OPENPDF.Text = "Справка";
             this.OPENPDF.UseVisualStyleBackColor = true;
             this.OPENPDF.Click += new System.EventHandler(this.OPENPDF_Click);
             // 
@@ -2012,7 +2012,7 @@
             this.btnabout.Name = "btnabout";
             this.btnabout.Size = new System.Drawing.Size(97, 47);
             this.btnabout.TabIndex = 11;
-            this.btnabout.Text = "О разработчике";
+            this.btnabout.Text = "Об авторе";
             this.btnabout.UseVisualStyleBackColor = true;
             this.btnabout.Click += new System.EventHandler(this.btnabout_Click);
             // 
