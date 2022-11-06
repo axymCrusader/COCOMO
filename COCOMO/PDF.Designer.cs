@@ -36,6 +36,7 @@
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
@@ -43,19 +44,21 @@
             // 
             this.pdfViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pdfViewer1.Location = new System.Drawing.Point(0, 0);
+            this.pdfViewer1.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.pdfViewer1.Name = "pdfViewer1";
-            this.pdfViewer1.Size = new System.Drawing.Size(800, 696);
+            this.pdfViewer1.Size = new System.Drawing.Size(1600, 1338);
             this.pdfViewer1.TabIndex = 1;
             // 
             // PDF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 696);
+            this.ClientSize = new System.Drawing.Size(1600, 1338);
             this.Controls.Add(this.pdfViewer1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "PDF";
-            this.Text = "Руководство COCOMO";
+            this.Text = "Справка";
             this.Load += new System.EventHandler(this.PDF_Load);
             this.ResumeLayout(false);
 
