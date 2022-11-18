@@ -10,7 +10,7 @@
         /// <summary>
         /// Освободить все используемые ресурсы.
         /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        /// <param name="disposing"> истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -275,6 +275,7 @@
             this.TXTSIZE2_1.Name = "TXTSIZE2_1";
             this.TXTSIZE2_1.Size = new System.Drawing.Size(153, 31);
             this.TXTSIZE2_1.TabIndex = 34;
+            this.TXTSIZE2_1.MaxLength = 4;
             this.TXTSIZE2_1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_KeyPress);
             // 
             // TMoutput2_1
@@ -1342,6 +1343,7 @@
             this.TXTSIZE1_2.Name = "TXTSIZE1_2";
             this.TXTSIZE1_2.Size = new System.Drawing.Size(153, 31);
             this.TXTSIZE1_2.TabIndex = 15;
+            this.TXTSIZE1_2.MaxLength = 4;
             this.TXTSIZE1_2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_KeyPress);
             // 
             // label38
@@ -1379,8 +1381,8 @@
             this.CBTEAM1_2.FormattingEnabled = true;
             this.CBTEAM1_2.Items.AddRange(new object[] {
             "Распространенный",
-            "Встроенный",
-            "Полунезависимый"});
+            "Полунезависимый",
+            "Встроенный"});
             this.CBTEAM1_2.Location = new System.Drawing.Point(8, 51);
             this.CBTEAM1_2.Margin = new System.Windows.Forms.Padding(2);
             this.CBTEAM1_2.Name = "CBTEAM1_2";
@@ -1717,6 +1719,7 @@
             this.TXTSIZE1_1.Name = "TXTSIZE1_1";
             this.TXTSIZE1_1.Size = new System.Drawing.Size(153, 31);
             this.TXTSIZE1_1.TabIndex = 7;
+            this.TXTSIZE1_1.MaxLength = 4;
             this.TXTSIZE1_1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_KeyPress);
             // 
             // label54
@@ -1734,8 +1737,8 @@
             this.CBTEAM1_1.FormattingEnabled = true;
             this.CBTEAM1_1.Items.AddRange(new object[] {
             "Распространенный",
-            "Встроенный",
-            "Полунезависимый"});
+            "Полунезависимый",
+            "Встроенный"});
             this.CBTEAM1_1.Location = new System.Drawing.Point(16, 53);
             this.CBTEAM1_1.Margin = new System.Windows.Forms.Padding(2);
             this.CBTEAM1_1.Name = "CBTEAM1_1";
@@ -1856,6 +1859,7 @@
             this.TXTSIZE2_2.Location = new System.Drawing.Point(18, 51);
             this.TXTSIZE2_2.Margin = new System.Windows.Forms.Padding(2);
             this.TXTSIZE2_2.Name = "TXTSIZE2_2";
+            this.TXTSIZE2_2.MaxLength = 4;
             this.TXTSIZE2_2.Size = new System.Drawing.Size(153, 31);
             this.TXTSIZE2_2.TabIndex = 47;
             this.TXTSIZE2_2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_KeyPress);
